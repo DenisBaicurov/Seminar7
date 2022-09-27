@@ -27,6 +27,8 @@ def get_oper(string_input: str) -> str:
     Выбор операции
     '''
     symbol = ch.get_symbol(string_input)
+ 
+
     return symbol
 
 
